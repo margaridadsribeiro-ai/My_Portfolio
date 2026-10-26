@@ -366,6 +366,63 @@
   .turn .a.blocked {
     color: var(--warn);
   }
+
+
+/* Sources displayed beneath each answer — Task 7 */
+
+.answer-sources {
+  margin-top: 22px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.answer-sources-title {
+  margin-bottom: 10px;
+  color: var(--accent-hover);
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.answer-sources ul {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.answer-sources li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 5px 12px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface-raised);
+  font-size: 0.82rem;
+}
+
+.source-name {
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: 0.78rem;
+}
+
+.source-score {
+  color: var(--accent-hover);
+  font-family: var(--mono);
+  font-size: 0.76rem;
+}
+
+.source-heading {
+  flex-basis: 100%;
+  color: var(--ink-soft);
+  font-size: 0.8rem;
+}
+
   
   /* ==========================================================================
      RETRIEVAL TRACE / DEBUG INFORMATION

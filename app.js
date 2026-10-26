@@ -127,6 +127,30 @@ async function ask(question) {
     if (data.blocked) answerEl.classList.add("blocked");
   }
 
+
+  // Show retrieved sources beneath every answer (Task 7).
+  const sourcesEl = document.createElement("div");
+  sourcesEl.className = "answer-sources";
+
+  if (passages.length > 0) {
+    sourcesEl.innerHTML = `
+      <div class="answer-sources-title">Sources used</div>
+      <ul>
+        ${passages.map((p) => `
+          <li>
+            <span class="source-name">${esc(p.id || "Unknown chunk")}</span>
+            <span class="source-score">Score: ${Number(p.score).toFixed(3)}</span>
+            ${p.heading ? `<span class="source-heading">${esc(p.heading)}</span>` : ""}
+          </li>
+        `).join("")}
+      </ul>
+    `;
+  } else {
+    sourcesEl.textContent = "No sources retrieved for this answer.";
+  }
+
+  turn.querySelector(".a").insertAdjacentElement("afterend", sourcesEl);
+
   if (cfg.SHOW_TRACE && data.trace) {
     let html = renderTrace(data.trace);
     if (droppedForSpace > 0) {

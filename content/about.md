@@ -1,20 +1,23 @@
 # About
 
-I am Sample Person, an AI engineer. I build systems that put language models
-into production: retrieval pipelines, evaluation harnesses, and the plumbing
-that keeps them honest once real users arrive.
+I am a recent MSc graduate in AI for Engineering and Design from the University
+of Bath, with a background in Computer Systems Engineering. I am interested in
+building AI and software systems that solve practical problems, particularly where
+machine learning meets engineering.
 
-I am based in Bangalore, India, and I work remotely. I am comfortable across
-the stack, but my centre of gravity is the backend: Python services, retrieval,
-and the measurement layer that tells you whether a change helped or hurt.
+My academic work has involved machine learning, signal processing, feature
+engineering, and working with real-world data. For my master's dissertation,
+I explored how information from amplitude signals could be used to improve phase
+signals in wearable pulmonary monitoring, combining signal processing techniques
+with machine learning experiments.
 
-Before moving into AI work I spent three years as a full stack developer, which
-is where I learned that most production failures are boring: a missing index, a
-silent retry, a config value nobody reviewed.
+I enjoy understanding how things work beneath the surface, testing ideas, and
+measuring whether a solution actually improves on what came before. I am particularly
+interested in the practical side of AI: not just building a model, but understanding its
+limitations and evaluating its performance.
 
-I studied computer science and finished with a focus on machine learning. My
-dissertation looked at how retrieval quality limits what a language model can
-do, which turned out to be the most useful thing I learned.
+I am based in London, UK, and I am looking for an opportunity in AI engineering,
+machine learning, or software engineering where I can keep learning, take on meaningful
+technical challenges, and contribute to building useful systems.
 
-What I want next is a role where the evaluation story matters as much as the
-demo. I am happiest on a team that measures things.
+

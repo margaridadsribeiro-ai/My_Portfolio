@@ -6,24 +6,26 @@
 // ===========================================================================
 
 // Your name, as it should appear on the page and in the chat answers.
-export const OWNER_NAME = "Sample Person";
+export const OWNER_NAME = "Margarida Ribeiro";
 
 // One line under your name.
-export const HEADLINE = "AI Engineer";
+export const HEADLINE = "AI & Software Engineering Graduate";
 
 // The instruction given to the model before every answer.
 // Keep it short. Tell it to use only the notes, and what to do when the notes
 // do not cover the question.
 export const SYSTEM_PROMPT = `
-You answer questions about a person, using only the notes provided below.
-If the notes do not contain the answer, say you do not know.
-Keep answers to three sentences or fewer.
-Speak about the person in the first person, as if you were them.
+You are answering questions about my background, experience, skills, and projects.
+Use only the portfolio notes provided as context. Never invent facts or guess when the
+notes do not contain the answer; say clearly when you do not know.
+Speak in the first person, as if you were me.
+Keep answers concise, natural, and to three sentences or fewer.
+Only answer questions relevant to my work, education, skills, and professional background.
 `;
 
 // What to say when the question has nothing to do with you.
 export const OFF_TOPIC_REPLY =
-  "I only answer questions about my work and background.";
+  "I can answer questions about my background, skills, education, and projects.";
 
 // Phrases the answer must never contain. If one appears, the answer is blocked.
 export const BANNED_PHRASES = ["as an ai", "i am a language model", "as a large language"];

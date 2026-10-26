@@ -1,32 +1,34 @@
 # Skills
 
-## Languages
+## Programming and data analysis
 
-Python is my main language and the one I am fastest in. JavaScript second,
-mostly for front ends and serverless functions. SQL well enough to read a query
-plan and fix the obvious problem.
+Python is one of the main languages I have used for machine learning and academic projects.
+I have worked with NumPy and SciPy for numerical and scientific computing, and pandas for data
+manipulation. I have also used MATLAB to store, explore and analyse experimental data during my
+master's dissertation.
 
-## Retrieval and evaluation
+## Machine learning
 
-Chunking strategies and why they matter more than people expect. Keyword versus
-dense retrieval, and when the cheaper one is good enough. Cosine similarity.
-Building labelled evaluation sets. Inter annotator agreement with Cohen's
-kappa. LLM as judge, including the part where you check the judge against human
-labels before trusting it.
+I have academic experience developing and evaluating machine learning models, including Random Forest,
+Logistic Regression, k-Nearest Neighbours and Convolutional Neural Networks. I have used scikit-learn to
+train models, extract and prepare features, and compare performance using metrics such as
+accuracy, precision, recall and F1-score.
 
-## Infrastructure
+## Deep learning and computer vision
 
-Vercel and Render for deployment. PostgreSQL, including Neon. GitHub Actions
-for CI. Docker to the level of writing a working Dockerfile, not to the level
-of running a cluster.
+I have worked with TensorFlow and Keras to develop convolutional neural networks for image classification,
+including a VGG16-based model for classifying plant and weed species. This involved running experiments,
+examining model performance and comparing results across different configurations.
 
-## Models and tools
+## Signal processing and mathematical methods
 
-Groq for inference. Langfuse for tracing and scoring. scikit-learn for
-classical baselines, which are still the right first move more often than not.
+My dissertation involved analysing amplitude and phase signals associated with breathing patterns.
+I explored mathematical signal-processing techniques, including the Hilbert transform, to investigate
+whether information from one signal could help enhance another. I also worked on feature extraction and
+used cross-validation when evaluating machine learning models.
 
-## What I am still learning
+## What I am still developing
 
-Agent frameworks beyond simple tool calling. I have built tool loops by hand
-and want to understand what the frameworks actually buy you. Also Kubernetes,
-which I keep deferring.
+I am continuing to develop my practical software engineering skills and broaden my experience beyond
+academic projects. I want to become more confident building complete, maintainable systems and applying
+machine learning to practical problems, from data preparation and experimentation through to evaluation.

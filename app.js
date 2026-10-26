@@ -9,7 +9,7 @@
 // ---------------------------------------------------------------------------
 
 import * as cfg from "./config.js";
-import { retrieve, buildContext, RETRIEVAL_METHOD } from "./lib/retrieve.js";
+import { retrieve, buildContext, RETRIEVAL_METHOD } from "./lib/retrieve_vector.js";
 
 const $ = (sel) => document.querySelector(sel);
 
@@ -21,6 +21,7 @@ const SUGGESTED = [
 ];
 
 let CHUNKS = [];
+let VECTORIZER = null;
 
 // --- tiny markdown render, headings and paragraphs only --------------------
 function renderMarkdown(md) {
@@ -96,6 +97,7 @@ async function ask(question) {
   const passages = retrieve(question, CHUNKS, {
     passages: cfg.PASSAGES,
     floor: cfg.SIMILARITY_FLOOR,
+    vectoriser: VECTORIZER,
   });
   const { context, droppedForSpace } = buildContext(
     passages,
@@ -148,6 +150,11 @@ async function start() {
   try {
     const doc = await (await fetch("chunks.json")).json();
     CHUNKS = doc.chunks || [];
+    VECTORIZER = doc.vectoriser || null;
+
+    if (!VECTORIZER) {
+      throw new Error("TF-IDF vectoriser is missing from chunks.json.");
+    }
     $("#foot-note").textContent =
       `${CHUNKS.length} chunks, built ${doc.built_at}, strategy "${doc.strategy}".`;
   } catch {

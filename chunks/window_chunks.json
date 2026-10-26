@@ -1,0 +1,152 @@
+{
+ "strategy": "window",
+ "built_at": "2026-10-26T22:10:34Z",
+ "files": [
+  "about.md",
+  "experience.md",
+  "projects.md",
+  "skills.md"
+ ],
+ "chunks": [
+  {
+   "file": "about.md",
+   "heading": "about",
+   "text": "I am a recent MSc graduate in AI for Engineering and Design from the University of Bath, with a background in Computer Systems Engineering. I am interested in building AI and software systems that solve practical problems, particularly where machine learning meets engineering. My academic work has involved machine learning, signal processing, feature engineering, and working with real-world data. For my master's dissertation, I explored how information from amplitude signals could be used to improve phase signals in wearable pulmonary monitoring, combining signal processing techniques with mac",
+   "id": "about-1",
+   "chars": 600
+  },
+  {
+   "file": "about.md",
+   "heading": "about",
+   "text": "mation from amplitude signals could be used to improve phase signals in wearable pulmonary monitoring, combining signal processing techniques with machine learning experiments. I enjoy understanding how things work beneath the surface, testing ideas, and measuring whether a solution actually improves on what came before. I am particularly interested in the practical side of AI: not just building a model, but understanding its limitations and evaluating its performance. I am based in London, UK, and I am looking for an opportunity in AI engineering, machine learning, or software engineering whe",
+   "id": "about-2",
+   "chars": 600
+  },
+  {
+   "file": "about.md",
+   "heading": "about",
+   "text": "uating its performance. I am based in London, UK, and I am looking for an opportunity in AI engineering, machine learning, or software engineering where I can keep learning, take on meaningful technical challenges, and contribute to building useful systems.",
+   "id": "about-3",
+   "chars": 257
+  },
+  {
+   "file": "experience.md",
+   "heading": "experience",
+   "text": "## MSc Artificial Intelligence for Engineering and Design, University of Bath (2024 to 2026) My master's degree focused on applying artificial intelligence and machine learning to engineering problems. Through academic projects, I worked with data processing, feature engineering, signal processing and machine learning models, developing an understanding of how to turn raw data into something that can be analysed and evaluated. For my dissertation, *Dual Modality Pulmonary Imaging for Bedside Monitoring Using AI*, I explored how amplitude and phase signals collected during breathing could be us",
+   "id": "experience-1",
+   "chars": 600
+  },
+  {
+   "file": "experience.md",
+   "heading": "experience",
+   "text": ", *Dual Modality Pulmonary Imaging for Bedside Monitoring Using AI*, I explored how amplitude and phase signals collected during breathing could be used to support pulmonary monitoring Amplitude signals provided clearer breathing patterns, while phase signals were noisier. I investigated signal-processing techniques to enhance phase information using amplitude-derived information, then compared machine learning approaches to evaluate the results. The project taught me to approach technical problems systematically: understand the data, establish a baseline, test different approaches and evaluat",
+   "id": "experience-2",
+   "chars": 600
+  },
+  {
+   "file": "experience.md",
+   "heading": "experience",
+   "text": "The project taught me to approach technical problems systematically: understand the data, establish a baseline, test different approaches and evaluate whether an improvement is meaningful rather than assuming a more complex method is automatically better. ## BEng Computer Systems Engineering, Brunel University London (2020 to 2024) My undergraduate degree gave me a foundation in computer systems engineering and the relationship between software and physical systems. It developed my problem-solving skills and introduced me to engineering approaches for designing, analysing and testing technica",
+   "id": "experience-3",
+   "chars": 599
+  },
+  {
+   "file": "experience.md",
+   "heading": "experience",
+   "text": "and physical systems. It developed my problem-solving skills and introduced me to engineering approaches for designing, analysing and testing technical solutions. Together, my degrees have shaped my interest in applied AI and software engineering, particularly projects where programming, data and engineering come together to solve practical problems.",
+   "id": "experience-4",
+   "chars": 352
+  },
+  {
+   "file": "projects.md",
+   "heading": "projects",
+   "text": "## News Classification Evaluator and Ground Truth I evaluated an AI system that classifies news articles into four categories: World, Sports, Business, and Sci/Tech. I manually labelled 30 articles, compared my labels with the AI's predictions and the benchmark labels, and analysed where the classifications disagreed. The AI achieved 80% accuracy against the benchmark, with a Cohen's kappa of 0.7329. I examined the confusion matrix, confidence calibration, prompt engineering, and the limitations of accuracy on imbalanced datasets. For example, a classifier that predicted World for every articl",
+   "id": "projects-1",
+   "chars": 600
+  },
+  {
+   "file": "projects.md",
+   "heading": "projects",
+   "text": "libration, prompt engineering, and the limitations of accuracy on imbalanced datasets. For example, a classifier that predicted World for every article could still achieve 80% accuracy because World dominated the dataset, despite failing to recognise the other categories. This project helped me understand the importance of evaluating AI systems with multiple metrics, investigating errors, and questioning whether a headline performance figure tells the whole story. ## Newsroom Triage I worked on Newsroom Triage, an application that classifies news headlines into four categories and reports its",
+   "id": "projects-2",
+   "chars": 599
+  },
+  {
+   "file": "projects.md",
+   "heading": "projects",
+   "text": "s the whole story. ## Newsroom Triage I worked on Newsroom Triage, an application that classifies news headlines into four categories and reports its confidence in each prediction. It also records previous predictions and includes a scoring page that evaluates the application against the 30 articles I labelled during my last project. The project connected AI classification with practical software development concepts, including deployment, automated testing, retrieval, routing rules, and guardrails. Using my own labelled examples as an evaluation set provided a way to measure the system's perf",
+   "id": "projects-3",
+   "chars": 600
+  },
+  {
+   "file": "projects.md",
+   "heading": "projects",
+   "text": "ted testing, retrieval, routing rules, and guardrails. Using my own labelled examples as an evaluation set provided a way to measure the system's performance rather than relying only on individual demonstrations. ## Personal Portfolio and Retrieval-Based Chatbot A portfolio website I am currently customising as part of an AI and machine learning mentorship. The project uses personal Markdown notes as a knowledge base, retrieves relevant information for questions and generates answers using a language model. I am working through the process of preparing documents for retrieval, comparing chunki",
+   "id": "projects-4",
+   "chars": 600
+  },
+  {
+   "file": "projects.md",
+   "heading": "projects",
+   "text": "on for questions and generates answers using a language model. I am working through the process of preparing documents for retrieval, comparing chunking strategies, evaluating retrieval quality and configuring the chatbot's behaviour. The aim is to build a portfolio that can answer questions about my background using relevant information rather than relying entirely on a general prompt. ## Dual-Modality Pulmonary Imaging for Bedside Monitoring Applications My master's dissertation explored the use of amplitude and phase data from a wearable sensor system for pulmonary monitoring. I initially u",
+   "id": "projects-5",
+   "chars": 600
+  },
+  {
+   "file": "projects.md",
+   "heading": "projects",
+   "text": "plications My master's dissertation explored the use of amplitude and phase data from a wearable sensor system for pulmonary monitoring. I initially used MATLAB to store and analyse the data, then developed a machine-learning pipeline to investigate whether phase information could be enhanced using amplitude-derived information. I applied a Hilbert transform for phase enhancement, extracted features from the signals and trained Random Forest, Logistic Regression and k-Nearest Neighbours classifiers to distinguish three breathing states. I evaluated the models using accuracy, precision, recall",
+   "id": "projects-6",
+   "chars": 599
+  },
+  {
+   "file": "projects.md",
+   "heading": "projects",
+   "text": "istic Regression and k-Nearest Neighbours classifiers to distinguish three breathing states. I evaluated the models using accuracy, precision, recall and F1-score, with four-fold cross-validation. This project combined mathematical signal processing with machine learning. It taught me to investigate the quality of the input data, compare different approaches and evaluate model performance systematically. Stack: MATLAB, Python, NumPy, SciPy, scikit-learn, signal processing, feature engineering. ## Weed Classification Using Deep Convolutional Neural Networks An image-classification project focus",
+   "id": "projects-7",
+   "chars": 600
+  },
+  {
+   "file": "projects.md",
+   "heading": "projects",
+   "text": "t-learn, signal processing, feature engineering. ## Weed Classification Using Deep Convolutional Neural Networks An image-classification project focused on identifying 25 plant and weed species from a dataset of 15,050 images. I developed and evaluated a modified VGG16 convolutional neural network using Python, TensorFlow and Keras. I conducted eight structured experiments across different model and dataset configurations, analysing accuracy, F1-score, confusion matrices and training and validation behaviour. Across five runs, the model achieved an average accuracy of 97.92%, with a standard d",
+   "id": "projects-8",
+   "chars": 600
+  },
+  {
+   "file": "projects.md",
+   "heading": "projects",
+   "text": "score, confusion matrices and training and validation behaviour. Across five runs, the model achieved an average accuracy of 97.92%, with a standard deviation of 0.005. Using a reduced dataset also lowered average runtime by approximately 30% while maintaining accuracy above 95%. This project gave me practical experience with computer vision, deep learning, experimental design and model evaluation. Stack: Python, TensorFlow, Keras, VGG16, computer vision.",
+   "id": "projects-9",
+   "chars": 459
+  },
+  {
+   "file": "skills.md",
+   "heading": "skills",
+   "text": "## Programming and data analysis Python is one of the main languages I have used for machine learning and academic projects. I have worked with NumPy and SciPy for numerical and scientific computing, and pandas for data manipulation. I have also used MATLAB to store, explore and analyse experimental data during my master's dissertation. ## Machine learning I have academic experience developing and evaluating machine learning models, including Random Forest, Logistic Regression, k-Nearest Neighbours and Convolutional Neural Networks. I have used scikit-learn to train models, extract and prepare",
+   "id": "skills-1",
+   "chars": 600
+  },
+  {
+   "file": "skills.md",
+   "heading": "skills",
+   "text": "dom Forest, Logistic Regression, k-Nearest Neighbours and Convolutional Neural Networks. I have used scikit-learn to train models, extract and prepare features, and compare performance using metrics such as accuracy, precision, recall and F1-score. ## Deep learning and computer vision I have worked with TensorFlow and Keras to develop convolutional neural networks for image classification, including a VGG16-based model for classifying plant and weed species. This involved running experiments, examining model performance and comparing results across different configurations. ## Signal processin",
+   "id": "skills-2",
+   "chars": 600
+  },
+  {
+   "file": "skills.md",
+   "heading": "skills",
+   "text": "eed species. This involved running experiments, examining model performance and comparing results across different configurations. ## Signal processing and mathematical methods My dissertation involved analysing amplitude and phase signals associated with breathing patterns. I explored mathematical signal-processing techniques, including the Hilbert transform, to investigate whether information from one signal could help enhance another. I also worked on feature extraction and used cross-validation when evaluating machine learning models. ## What I am still developing I am continuing to develo",
+   "id": "skills-3",
+   "chars": 600
+  },
+  {
+   "file": "skills.md",
+   "heading": "skills",
+   "text": "orked on feature extraction and used cross-validation when evaluating machine learning models. ## What I am still developing I am continuing to develop my practical software engineering skills and broaden my experience beyond academic projects. I want to become more confident building complete, maintainable systems and applying machine learning to practical problems, from data preparation and experimentation through to evaluation.",
+   "id": "skills-4",
+   "chars": 434
+  }
+ ]
+}

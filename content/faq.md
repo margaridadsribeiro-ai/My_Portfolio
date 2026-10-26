@@ -2,29 +2,30 @@
 
 ## Are you looking for a new role?
 
-Yes. I am open to AI engineering roles, remote or hybrid, and I am particularly
-interested in teams where evaluation is taken seriously.
+Yes. I recently completed my MSc in Artificial Intelligence for Engineering
+and Design at the University of Bath, and I am looking for an entry-level
+opportunity in AI engineering, machine learning or software engineering where
+I can apply my technical skills and continue learning.
 
-## Where are you based and can you work across time zones?
+## Where are you based?
 
-Bangalore, India. I work remotely and I overlap comfortably with European hours
-and the early part of the US east coast day.
+I am based in London, United Kingdom.
 
-## What is your notice period?
+## What kind of roles are you interested in?
 
-Thirty days.
+I am particularly interested in applied AI, machine learning and software
+engineering. I enjoy solving practical problems, experimenting with different
+approaches and evaluating whether a solution actually works.
 
-## Do you prefer backend or frontend work?
+## Do you have professional experience in AI or software engineering?
 
-Backend. I can build a front end when one is needed and I am not afraid of CSS,
-but the work I do best is on the server and in the data.
+My technical experience so far has been primarily academic, through my degrees,
+dissertation and university projects. Alongside my studies, I have also gained
+work experience in hospitality, which has helped me develop communication, teamwork
+and time-management skills.
 
-## Can you share a reference?
+## What was your master's dissertation about?
 
-Yes, on request, from my current manager and from a colleague on the support
-team who used the assistant daily.
-
-## What are you not looking for?
-
-A role with no evaluation story, where success is measured by whether the demo
-impressed someone. I have done that and it does not end well.
+My dissertation explored how amplitude and phase signals collected during breathing
+could be used for AI-assisted pulmonary monitoring. I investigated signal-processing
+techniques to enhance phase information
